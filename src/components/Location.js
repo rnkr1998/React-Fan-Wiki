@@ -355,7 +355,7 @@ let date=require('dateformat');
                                 <div className="residents" style={{marginLeft:"20px"}}>
                                   <h3 className="locationtitle">Residents:</h3>
 
-                                   <div id="residents">
+                                   <div id="residents" style={{cursor:"pointer"}}>
 
 
                                    </div>
