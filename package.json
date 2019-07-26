@@ -1,8 +1,8 @@
 {
-  "name": "reactapp",
+  "name": "reactfanwiki",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://rnkr1998.github.io/React-Fan-Wiki/",
+  "homepage":"https://rnkr1998.github.io/reactfanwiki/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "dateformat": "^3.0.3",
