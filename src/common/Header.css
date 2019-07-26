@@ -1,0 +1,70 @@
+
+#content
+{
+    width:100%;
+}
+
+
+
+
+
+#lineone
+{
+    height: 2px;
+    color: #CECBCE;
+    background-color:#CECBCE;
+    border: none;
+    
+}
+
+#lineTwo
+{
+   
+    height: 500px;
+    color: #CECBCE;
+    background-color:#CECBCE;
+    border: none;
+}
+
+
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 87px;
+    left: 0;
+   background-color: #ede3fc;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:  #7c38c9;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: solid blue;
+  }
+  
+  .mainn {
+    margin-left: 120px; /* Same as the width of the sidenav */
+   
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top:82px;
+    background-color: white;
+  }
+

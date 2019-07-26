@@ -1,0 +1,22 @@
+#lineone
+{
+    height: 2px;
+    color: #CECBCE;
+    background-color:#CECBCE;
+    border: none;
+}
+
+#headinggg
+{
+font-family: serif;
+font-style: italic;
+font-weight: bolder;
+font-size:40px;
+}
+#bodyyy
+{
+    margin-left:100px;
+    margin-top:100px;
+    font-family:unset;
+    font-size:14px;
+}
