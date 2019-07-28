@@ -239,7 +239,7 @@ let date=require('dateformat');
                                      <img src={rickyandmorky} id="titleimg"  alt="" style={{height:"50px",
                                    width:"120px",
                                        margin:"10px 5px 5px 20px"}}/>
-                                       <span style={{backgroundColor:"#b5b3ba" ,padding:"12px",borderRadius:"10px",
+                                       <span id="searchcontent" style={{backgroundColor:"#b5b3ba" ,padding:"12px",borderRadius:"10px",
                    marginLeft:"900px" ,marginTop:"50px"}}>character
                                          
                                          <input type="search" className="searchbox" id="searchbox" placeholder="Type a location" 

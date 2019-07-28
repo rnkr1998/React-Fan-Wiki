@@ -232,5 +232,16 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+#searchcontent
+{
+  background-color:#b5b3ba;
+  padding:12px;
+  border-radius:10px;
+
+                   margin-left:900px ;
+                   margin-top:50px;
+}
+  
+
 
   
