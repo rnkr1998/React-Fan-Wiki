@@ -47,7 +47,7 @@ class Location extends Component
    Handler = (f) => {                                 // panel onclick handler
     
     this.setState({showHome:false})
-   this.setState({id:f});
+   this.setState({id:false});
    this.setState({showMe:false});
    this.setState({showUs:true});
    this.setState({showLoc:true});
