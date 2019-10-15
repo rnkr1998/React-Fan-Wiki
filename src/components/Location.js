@@ -6,20 +6,7 @@ import rickyandmorky from './rickyandmorky.jpeg';
 import { FaSearch } from 'react-icons/fa';
 
 
-/* The project is designed to be in one component.The reason for that is  when  i used to implement the
-functions or classes in multiple components it is very hard to pass data from one component to other components
-although i use props and state components. We need to send as well as receive data from each component to many other 
-component. I know it is possible to make but the most of the concepts are not covered in class and the project deadline is near
-so that why i unable to implement the project in multiple components 
-The following functions are not implemented due to above reasons:
 
-1. Page loading spinner.
-2. Content font family and some stylings.
-3. multiple component classes or functions.
-
-please forgive us this as the most topics are not covered in class session.  
-
-*/
 
 
 
