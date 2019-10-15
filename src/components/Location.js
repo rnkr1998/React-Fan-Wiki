@@ -81,9 +81,9 @@ class Location extends Component
    
 componentMount(f)                                            //Get location data function
 {
-  var k=f;
+  
    
-    let url="https://rickandmortyapi.com/api/location/"+k;         // location data fetch api
+    let url="https://rickandmortyapi.com/api/location/"+f;         // location data fetch api
     
      
     
@@ -109,16 +109,16 @@ componentMount(f)                                            //Get location data
   }
   
 
-  componentDidCatch(e)                                           //Get Location data residents names function
+  componentDidCatch(v)                                           //Get Location data residents names function
   {
-    let v=e;
+    
    
     for (let i in v)
     {
         
       
-       let urll=v[i]; 
-       fetch(urll)
+       
+       fetch(v[i])
        .then((respp) => respp.json())
        .then(json => {
         this.setState({Names: json})
@@ -137,9 +137,9 @@ componentMount(f)                                            //Get location data
 
   component(e)                                                    // update location data residents list function 
   {
-    let c=this.state.count;
-    document.getElementById("residents").innerHTML +=   c+ ".<b id='resinames'> " +e+"</b><br/>";
-    this.setState({count :c+1});
+    
+    document.getElementById("residents").innerHTML +=   this.state.count+ ".<b id='resinames'> " +e+"</b><br/>";
+    this.setState({count :this.state.count+1});
   }
 
 
